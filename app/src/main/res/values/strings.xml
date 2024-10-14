@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">composestudy</string>
     <string name="title_activity_resuable_composable">ResuableComposable</string>
+    <string name="title_activity_layout_composable">LayoutComposable</string>
 </resources>

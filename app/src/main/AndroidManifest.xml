@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Composestudy"
         tools:targetApi="31">
         <activity
+            android:name=".LayoutComposable"
+            android:exported="false"
+            android:label="@string/title_activity_layout_composable"
+            android:theme="@style/Theme.Composestudy" />
+        <activity
             android:name=".ResuableComposable"
             android:exported="false"
             android:label="@string/title_activity_resuable_composable"
