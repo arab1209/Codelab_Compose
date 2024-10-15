@@ -41,9 +41,6 @@ fun Greeting3(name: String, modifier: Modifier = Modifier) {
     val expanded = remember { mutableStateOf(false) }
     Surface {
         Column(modifier = modifier) {
-            Text(
-                text = "Hello $name!", modifier = modifier
-            )
             ElevatedButton(onClick = { expanded.value = !expanded.value }) {
                 Text(
                     if (expanded.value) "onClickTest" else "Hello Android"
