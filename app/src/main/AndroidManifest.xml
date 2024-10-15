@@ -13,21 +13,25 @@
         android:theme="@style/Theme.Composestudy"
         tools:targetApi="31">
         <activity
-            android:name=".StateHoistingComposable"
+            android:name=".LatencyReportComposable"
             android:exported="true"
-            android:label="@string/title_activity_state_hoisting_composable"
+            android:label="@string/title_activity_latency_report_composable"
             android:theme="@style/Theme.Composestudy" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
+            android:name=".StateHoistingComposable"
+            android:exported="false"
+            android:label="@string/title_activity_state_hoisting_composable"
+            android:theme="@style/Theme.Composestudy"/>
+        <activity
             android:name=".StateComposable"
             android:exported="false"
             android:label="@string/title_activity_state_composable"
-            android:theme="@style/Theme.Composestudy"/>
+            android:theme="@style/Theme.Composestudy" />
         <activity
             android:name=".LayoutComposable"
             android:exported="false"
