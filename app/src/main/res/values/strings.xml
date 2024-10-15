@@ -4,4 +4,5 @@
     <string name="title_activity_layout_composable">LayoutComposable</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="title_activity_state_composable">StateComposable</string>
+    <string name="title_activity_state_hoisting_composable">StateHoistingComposable</string>
 </resources>
