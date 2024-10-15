@@ -2,4 +2,6 @@
     <string name="app_name">composestudy</string>
     <string name="title_activity_resuable_composable">ResuableComposable</string>
     <string name="title_activity_layout_composable">LayoutComposable</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_state_composable">StateComposable</string>
 </resources>
