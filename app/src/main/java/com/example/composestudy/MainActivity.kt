@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            LayoutModifier(modifier = Modifier)
+            LayoutAlign(modifier = Modifier)
         }
     }
 }
